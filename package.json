@@ -1,0 +1,19 @@
+{
+  "name": "auto-ecole",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./assets/css/styles.css -o ./assets/css/main.css --watch",
+    "build": "tailwindcss -i ./assets/css/styles.css -o ./assets/css/main.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
+  },
+  "description": ""
+}
